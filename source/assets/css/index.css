@@ -43,6 +43,7 @@ nav ul li:hover{
 }
 nav ul li:hover a{
 	color: #eeeeee;
+	border: 0;
 }
 nav ul li a{
 	color: #eeeeee;
