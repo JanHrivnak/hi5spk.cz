@@ -1,6 +1,6 @@
+//noinspection CssUnknownTarget
 html{
-	min-height: 100%;
-	height: 100%;
+	background: url('/assets/css/images/bg.png') 0 0 repeat #eaeaea;
 }
 body{
 	width: 980px;
@@ -9,6 +9,15 @@ body{
 nav{
 	.navbar-brand{color: #000000;}
 	.navbar-collapse{width: 100%;}
+	.navbar-nav{
+		background: #444444;
+		li{
+			&.active{ background: #000000; }
+			a{
+				color: #eeeeee;
+			}
+		}
+	}
 }
 #content{
 	img{ max-width: 100%;}
