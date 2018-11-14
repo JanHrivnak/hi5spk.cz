@@ -1,25 +1,85 @@
-html{
-	background: url('/assets/css/images/bg.png') 0 0 repeat #eaeaea;
-}
 body{
+	background: url('/assets/css/images/bg.png') 0 0 repeat #eaeaea;
 	width: 980px;
 	margin: 0 auto;
+	font-size: 15px;
 }
-nav .navbar-brand{
-	color: #000000;
+header{
+	width: 100%;
+	padding-top: 1rem;
 }
-nav .navbar-collapse{
+header img.logo{
+	height: 85px;
+	float: left;
+}
+header a.brand{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Russo One', sans-serif;
+}
+header span{
+	color: #333333;
+	font-size: 20px;
+	font-family: 'Russo One', sans-serif;
+}
+nav{
+	clear: both;
+}
+nav img{
 	width: 100%;
 }
-nav .navbar-nav{
+nav ul{
+	width: 100%;
+	line-height: 40px;
 	background: #444444;
+	color: #000000;
+	list-style-type: none;
 }
-nav .navbar-nav li.active{
+nav ul li.active{
 	background: #000000;
 }
-nav .navbar-nav li a{
+nav ul li:hover{
+	background: #222222;
+}
+nav ul li:hover a{
 	color: #eeeeee;
 }
+nav ul li a{
+	color: #eeeeee;
+	font-weight: bold;
+}
 #content img{
-	max-width: 100%;
+	width: 100%;
+}
+#content a{
+	border-bottom: 1px dotted #333333;
+}
+#content ul.submenu{
+	line-height: 125%;
+	list-style: none;
+}
+#content ul.submenu li a{
+	border: 1px dotted #000000;
+	padding: 10px;
+	margin: 2px 0;
+	display: block;
+}
+#content ul.submenu li.active a{
+	background: #444444;
+	color: #ffffff;
+}
+a{
+	color: #333333;
+	border-bottom: 1px transparent;
+	text-decoration: none;
+}
+a:hover{
+	color: #333333;
+	border-bottom: 1px dotted #333333;
+	text-decoration: none;
+}
+@media (max-width: 980px){
+	body{
+		width: 100%;
+	}
 }
