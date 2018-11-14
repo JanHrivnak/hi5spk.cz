@@ -1,0 +1,13 @@
+parameters:
+  templating: 'latte'
+
+  # other constants
+  author: "Jan Hrivnák"
+  email: "jsem@janhrivnak.cz"
+
+  google_analytics_tracking_id: "UA-45827221-1"
+  site_title: "Hi 5 Šumperk"
+  site_url: "https://hi5spk.cz"
+
+  # Statie settings
+  github_repository_source_directory: "https://github.com/JanHrivnak/hi5spk.cz/tree/master/source"

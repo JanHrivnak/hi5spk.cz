@@ -1,0 +1,28 @@
+{
+	"name": "JanHrivnak/hi5spk.cz",
+	"authors": [
+		{
+			"name": "Jan Hrivnák",
+			"email": "jsem@janhrivnak.cz"
+		}
+	],
+	"require": {
+		"php": "^7.1.15",
+		"symplify/statie": "^5.2"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"phpstan/phpstan": "^0.10"
+	},
+	"autoload": {
+		"psr-4": {
+			"Hi5spk\\Website\\": "src"
+		}
+	},
+	"scripts": {
+		"generate": "statie generate source",
+		"phpstan": "phpstan analyse source --level max"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
